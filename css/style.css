@@ -1,0 +1,413 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  max-width: 2300px;
+}
+
+.title-content {
+  font-family: "Baloo Bhai";
+}
+
+.group-section {
+  position: relative;
+}
+.group-section > .shape {
+  position: absolute;
+  top: 30%;
+  right: 0;
+}
+.group-section > .shape-other {
+  position: absolute;
+  top: 45%;
+  right: 0;
+}
+
+.section-intro {
+  background-color: #f4f9f4;
+  padding-bottom: 300px;
+}
+.section-intro .header {
+  display: flex;
+  justify-content: space-between;
+}
+.section-intro .header .logo {
+  width: 142px;
+  height: 175px;
+  margin-left: 2%;
+}
+.section-intro .header .nav-header {
+  flex: 1;
+  text-align: right;
+  padding: 53px 0;
+}
+.section-intro .header .nav-header .nav-header-content {
+  background-color: #e2ede8;
+  padding: 20px 7%;
+}
+.section-intro .header .nav-header .nav-header-content a {
+  font-family: "Baloo Bhai";
+  font-size: 20.5px;
+  color: black;
+  text-decoration: none;
+  margin: 0 3%;
+  padding: 10px 30px;
+}
+.section-intro .header .nav-header .nav-header-content a:hover {
+  background-color: #c7d9d5;
+}
+.section-intro .section-intro-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8%;
+}
+.section-intro .section-intro-content .text {
+  text-align: center;
+}
+.section-intro .section-intro-content .text .title .title-content {
+  font-size: 98.21px;
+  color: #6c9894;
+}
+.section-intro .section-intro-content .text .text-content {
+  color: #6c9894;
+  font-size: 20.71px;
+  padding: 0 15%;
+}
+.section-intro .section-intro-content .text a {
+  padding: 5px 4%;
+  background-color: #6c9894;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "Lato";
+  font-size: 17.26px;
+  font-weight: bold;
+}
+
+.section-choose-class {
+  background-color: #6c9894;
+  padding: 200px 5%;
+}
+.section-choose-class .text {
+  text-align: center;
+  color: white;
+}
+.section-choose-class .text .title .title-content {
+  font-size: 75px;
+}
+.section-choose-class .text .text-content {
+  font-size: 29.72px;
+  padding: 20px 25%;
+}
+.section-choose-class .options-choose-class {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.section-choose-class .options-choose-class .options-element {
+  list-style-type: none;
+  text-align: center;
+}
+.section-choose-class .options-choose-class .options-element .image {
+  position: relative;
+}
+.section-choose-class .options-choose-class .options-element .image .women {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.section-choose-class .options-choose-class .options-element .title-content {
+  font-size: 36.95px;
+  color: white;
+}
+.section-choose-class .options-choose-class .options-element .text-content {
+  font-size: 22.17px;
+  color: white;
+  margin-top: 20px;
+  padding: 0 7%;
+}
+
+.section-our-stats {
+  padding: 200px 5%;
+  background-image: url(../image/background_group3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-our-stats .text {
+  text-align: center;
+}
+.section-our-stats .text .title .title-content {
+  font-size: 75px;
+  color: #6c9894;
+}
+.section-our-stats .text .text-content {
+  color: #6c9894;
+  font-size: 29.72px;
+  padding: 20px 25%;
+}
+.section-our-stats .stats-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+}
+.section-our-stats .stats-content .stats-content-element {
+  list-style-type: none;
+  border: 5px solid #6c9894;
+  border-radius: 50%;
+  padding: 110px 1%;
+  text-align: center;
+}
+.section-our-stats .stats-content .stats-content-element .title-content {
+  font-size: 66.84px;
+  color: #6c9894;
+}
+.section-our-stats .stats-content .stats-content-element .text-content {
+  font-size: 26.49px;
+  color: #6c9894;
+  padding: 0 5%;
+}
+
+.section-best-instructor {
+  background-color: #6c9894;
+  display: flex;
+  justify-content: space-between;
+}
+.section-best-instructor .text {
+  width: 50%;
+  text-align: left;
+  padding: 20% 5%;
+}
+.section-best-instructor .text .title {
+  padding-right: 40%;
+}
+.section-best-instructor .text .title .title-content {
+  font-size: 75px;
+  color: white;
+}
+.section-best-instructor .text .text-content {
+  color: white;
+  font-size: 29.72px;
+  margin-bottom: 70px;
+}
+.section-best-instructor .text a {
+  color: #6c9894;
+  background: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px 85px;
+  font-family: "Baloo Bhai";
+}
+.section-best-instructor .image {
+  width: 50%;
+}
+.section-best-instructor .image .women {
+  width: 100%;
+  height: 100%;
+}
+
+.section-new-experience {
+  background-color: #f4f9f4;
+  display: flex;
+  justify-content: space-between;
+}
+.section-new-experience .text {
+  width: 50%;
+  text-align: left;
+  padding: 20% 3% 15% 5%;
+}
+.section-new-experience .text .title {
+  padding-right: 40%;
+}
+.section-new-experience .text .title .title-content {
+  font-size: 75px;
+  color: #6c9894;
+}
+.section-new-experience .text .text-content {
+  color: #6c9894;
+  font-size: 29.72px;
+  margin-bottom: 70px;
+}
+.section-new-experience .text a {
+  color: white;
+  background: #6c9894;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px 85px;
+  font-family: "Baloo Bhai";
+}
+.section-new-experience .image {
+  padding: 110px 5% 70px;
+  width: 50%;
+}
+.section-new-experience .image .women {
+  width: 100%;
+}
+
+.section-pricing {
+  background-color: #6c9894;
+  padding: 200px 5%;
+}
+.section-pricing .text {
+  text-align: center;
+  color: white;
+}
+.section-pricing .text .title .title-content {
+  font-size: 75px;
+}
+.section-pricing .text .text-content {
+  font-size: 29.72px;
+  padding: 20px 25%;
+}
+.section-pricing .pricing-options {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.section-pricing .pricing-options .pricing-options-element {
+  background-color: white;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 3%;
+  color: #6c9894;
+  border-radius: 5px;
+  border: none;
+}
+.section-pricing .pricing-options .pricing-options-element .title .title-content {
+  font-size: 36.95px;
+}
+.section-pricing .pricing-options .pricing-options-element .price {
+  font-family: "Baloo Bhai";
+  font-size: 36.95px;
+  margin-bottom: 10px;
+}
+.section-pricing .pricing-options .pricing-options-element .text-content {
+  font-size: 22.17px;
+  padding: 10px 5px;
+  margin: 40px 0;
+}
+.section-pricing .pricing-options .pricing-options-element a {
+  text-decoration: none;
+  background-color: #6c9894;
+  color: white;
+  padding: 8px 18%;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: "Baloo Bhai";
+}
+
+.section-trainer {
+  background-image: url("../image/background_trainer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 5%;
+  text-align: center;
+}
+.section-trainer .text-content {
+  font-size: 58.33px;
+  color: #6c9894;
+  padding: 0 10%;
+}
+.section-trainer .title-content {
+  font-size: 58.33px;
+  color: #6c9894;
+  margin-top: 50px;
+}
+
+.section-subscribe {
+  background-color: #6c9894;
+  padding: 200px 5%;
+}
+.section-subscribe .text {
+  text-align: center;
+  color: white;
+}
+.section-subscribe .text .title .title-content {
+  font-size: 75px;
+}
+.section-subscribe .text .text-content {
+  font-size: 29.72px;
+  padding: 20px 25%;
+}
+.section-subscribe .input {
+  position: relative;
+  text-align: center;
+  margin: 0 25%;
+}
+.section-subscribe .input .input-email {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+.section-subscribe .input .input-email::placeholder {
+  color: gainsboro;
+}
+.section-subscribe .input .input-button {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  bottom: 0;
+  width: 25%;
+  border: none;
+  border-radius: 20px;
+  font-family: "Baloo Bhai";
+  font-size: 25px;
+  color: #6c9894;
+  text-decoration: none;
+  padding-top: 5px;
+  background-color: #f4f9f4;
+  box-shadow: -4px 0px #8888886e;
+}
+
+.footer {
+  background-color: #f4f9f4;
+  padding: 100px 5%;
+}
+.footer .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer .footer-content .column-text {
+  flex: 2;
+}
+.footer .footer-content .column-text li {
+  color: #6c9894;
+  list-style-type: none;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.footer .footer-content .column-text li .title-content {
+  font-size: 33.33px;
+  margin-bottom: 30px;
+}
+.footer .footer-content .footer-content-column {
+  flex: 1;
+}
+.footer .footer-content .footer-content-column li {
+  color: #6c9894;
+  list-style-type: none;
+  font-size: 25px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.footer .footer-content .footer-content-column li a {
+  font-size: 25px;
+  color: #6c9894;
+  text-decoration: none;
+}
+.footer .footer-content .footer-content-column li a img {
+  margin-right: 30px;
+}
+.footer .footer-content .footer-content-column li .title-content {
+  font-size: 33.33px;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

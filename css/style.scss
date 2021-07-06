@@ -1,0 +1,523 @@
+//All device
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  max-width: 2300px;
+}
+
+
+.title-content {
+  font-family: 'Baloo Bhai';
+}
+
+.group-section {
+  position: relative;
+
+  >.shape {
+    position: absolute;
+    top: 30%;
+    right: 0;
+  }
+
+  >.shape-other {
+    position: absolute;
+    top: 45%;
+    right: 0;
+  }
+}
+
+.section-intro {
+  background-color: #f4f9f4;
+  padding-bottom: 300px;
+
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+      width: 142px;
+      height: 175px;
+      margin-left: 2%;
+    }
+
+    .nav-header {
+      flex: 1;
+      text-align: right;
+      padding: 53px 0;
+
+      .nav-header-content {
+        background-color: #e2ede8;
+        padding: 20px 7%;
+
+        a {
+          font-family: "Baloo Bhai";
+          font-size: 20.5px;
+          color: black;
+          text-decoration: none;
+          margin: 0 3%;
+          padding: 10px 30px;
+
+          &:hover {
+            background-color: #c7d9d5;
+          }
+        }
+
+      }
+    }
+  }
+
+  .section-intro-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8%;
+
+    .text {
+      text-align: center;
+
+      .title {
+        .title-content {
+          font-size: 98.21px;
+          color: #6c9894;
+        }
+      }
+
+      .text-content {
+        color: #6c9894;
+        font-size: 20.71px;
+        padding: 0 15%;
+      }
+
+      a {
+        padding: 5px 4%;
+        background-color: #6c9894;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        font-family: 'Lato';
+        font-size: 17.26px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.section-choose-class {
+  background-color: #6c9894;
+  padding: 200px 5%;
+
+  .text {
+    text-align: center;
+    color: white;
+
+    .title {
+      .title-content {
+        font-size: 75px;
+      }
+    }
+
+    .text-content {
+      font-size: 29.72px;
+      padding: 20px 25%;
+    }
+    
+  }
+
+  .options-choose-class {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+
+    .options-element {
+      list-style-type: none;
+      text-align: center;
+
+      .image {
+        position: relative;
+  
+        .women {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%,-50%);
+          border-radius: 50%;
+        }
+      }
+
+      .title-content {
+        font-size: 36.95px;
+        color: white;
+      }
+
+      .text-content {
+        font-size: 22.17px;
+        color: white;
+        margin-top: 20px;
+        padding: 0 7%;
+      }
+    }
+  }
+
+}
+
+.section-our-stats {
+  padding: 200px 5%;
+  background-image: url(../image/background_group3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .text {
+    text-align: center;
+
+    .title {
+      .title-content {
+        font-size: 75px;
+        color: #6c9894;
+      }
+    }
+
+    .text-content {
+      color: #6c9894;
+      font-size: 29.72px;
+       padding: 20px 25%;
+    }
+  }
+
+  .stats-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+
+    .stats-content-element {
+      list-style-type: none;
+      border: 5px solid #6c9894;
+      border-radius: 50%;
+      padding: 110px 1%;
+      text-align: center;
+
+      .title-content {
+        font-size: 66.84px;
+        color: #6c9894;
+      }
+
+      .text-content {
+        font-size: 26.49px;
+        color: #6c9894;
+        padding: 0 5%;
+
+      }
+    }
+  }
+}
+
+.section-best-instructor {
+  background-color: #6c9894;
+  display: flex;
+  justify-content: space-between;
+
+  .text {
+    width: 50%;
+    text-align: left;
+    padding: 20% 5%;
+
+    .title {
+      padding-right: 40%;
+
+      .title-content {
+        font-size: 75px;
+        color: white;
+      }
+    }
+
+    .text-content {
+      color: white;
+      font-size: 29.72px;
+      margin-bottom: 70px;
+    }
+
+    a {
+      color: #6c9894;
+      background: white;
+      text-decoration: none;
+      font-size: 25px;
+      padding: 10px 85px;
+      font-family: 'Baloo Bhai';
+    }
+  }
+
+  .image {
+    width: 50%;
+
+    .women {
+      width: 100%;
+      height: 100%;
+    }
+  }  
+}
+
+.section-new-experience {
+  background-color: #f4f9f4;
+  display: flex;
+  justify-content: space-between;
+
+  .text {
+    width: 50%;
+    text-align: left;
+    padding: 20% 3% 15% 5%;
+
+    .title {
+      padding-right: 40%;
+
+      .title-content {
+        font-size: 75px;
+        color: #6c9894;
+      }
+    }
+
+    .text-content {
+      color: #6c9894;
+      font-size: 29.72px;
+      margin-bottom: 70px;
+    }
+
+    a {
+      color: white;
+      background: #6c9894 ;
+      text-decoration: none;
+      font-size: 25px;
+      padding: 10px 85px;
+      font-family: 'Baloo Bhai';
+    }
+  }
+
+  .image {
+    padding: 110px 5% 70px;
+    width: 50%;
+
+    .women {
+      width: 100%;
+    }
+  }
+}
+
+.section-pricing {
+  background-color: #6c9894;
+  padding: 200px 5%;
+
+  .text {
+    text-align: center;
+    color: white;
+
+    .title {
+      .title-content {
+        font-size: 75px;
+      }
+    }
+
+    .text-content {
+      font-size: 29.72px;
+      padding: 20px 25%;
+    }
+    
+  }
+
+  .pricing-options {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+    .pricing-options-element {
+      background-color: white;
+      text-align: center;
+      padding: 50px 0;
+      margin: 0 3%;
+      color: #6c9894;
+      border-radius: 5px;
+      border: none;
+
+      .title {
+        .title-content {
+          font-size: 36.95px;
+        }
+      }
+
+      .price {
+        font-family: 'Baloo Bhai';
+        font-size: 36.95px;
+        margin-bottom: 10px;
+      }
+  
+      .text-content {
+        font-size: 22.17px;
+        padding: 10px 5px;
+        margin: 40px 0;
+      }
+
+      a {
+        text-decoration: none;
+        background-color: #6c9894;
+        color: white;
+        padding: 8px 18%;
+        border-radius: 5px;
+        font-size: 25px;
+        font-family: 'Baloo Bhai';
+      }
+    }
+  }
+}
+
+.section-trainer {
+  background-image: url('../image/background_trainer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 5%;
+  text-align: center;
+
+  .text-content {
+    font-size: 58.33px;
+    color: #6c9894;
+    padding: 0 10%;
+  }
+
+  .title-content {
+    font-size: 58.33px;
+    color: #6c9894;
+    margin-top: 50px;
+  }
+}
+
+.section-subscribe {
+  background-color: #6c9894;
+  padding: 200px 5%;
+
+  .text {
+    text-align: center;
+    color: white;
+
+    .title {
+      .title-content {
+        font-size: 75px;
+      }
+    }
+
+    .text-content {
+      font-size: 29.72px;
+      padding: 20px 25%;
+    }
+    
+  }
+
+  .input {
+    position: relative;
+    text-align: center;
+    margin: 0 25%;
+
+    .input-email {
+      width: 100%;
+      padding: 10px 15px;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+
+      &::placeholder {
+        color: gainsboro;
+      }
+    }
+
+    .input-button {
+      position: absolute;
+      right: 0;
+      height: 100%;
+      bottom: 0;
+      width: 25%;
+      border: none;
+      border-radius: 20px;
+      font-family: 'Baloo Bhai';
+      font-size: 25px;
+      color: #6c9894;
+      text-decoration: none;
+      padding-top: 5px;
+      background-color: #f4f9f4;
+      box-shadow: -4px 0px #8888886e;
+    }
+    
+  }
+}
+
+.footer {
+  background-color: #f4f9f4;
+  padding: 100px 5%;
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .column-text {
+      flex: 2;
+
+      li {
+        color: #6c9894;
+        list-style-type: none;
+        font-size: 25px;
+        margin-bottom: 5px;
+
+
+        .title-content {
+          font-size: 33.33px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    .footer-content-column {
+      flex: 1;
+      li {
+        color: #6c9894;
+        list-style-type: none;
+        font-size: 25px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+
+        a {
+          font-size: 25px;
+          color: #6c9894;
+          text-decoration: none;
+
+          img {
+            margin-right: 30px;
+          }
+        }
+
+        .title-content {
+          font-size: 33.33px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+//Responsive Tablet
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+//Responsive SP
+@media screen and (max-width: 767px) {
+
+}
+
+
+
+
+
+
+
+
+
+
