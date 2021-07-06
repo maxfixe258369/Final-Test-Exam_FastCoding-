@@ -132,7 +132,7 @@ body {
 
 .section-our-stats {
   padding: 200px 5%;
-  background-image: url(../image/background_group3.jpg);
+  background-image: url(../image/background_group3.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -300,7 +300,7 @@ body {
 }
 
 .section-trainer {
-  background-image: url("../image/background_trainer.jpg");
+  background-image: url("../image/background_trainer.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 5%;
