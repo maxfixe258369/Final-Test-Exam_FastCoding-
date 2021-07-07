@@ -522,6 +522,10 @@ body {
   font-size: 33.33px;
   margin-bottom: 30px;
 }
+.footer .footer-content .footer-content-column li .icon-group {
+  margin: 0;
+  padding: 0;
+}
 
 @media screen and (min-width: 1025px) {
   .options-choose-class {
