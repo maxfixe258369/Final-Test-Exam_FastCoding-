@@ -9,7 +9,6 @@ function closeNav() {
 $(document).ready(function () {
   $(window).scroll(function () {
     const scrollTop = $(window).scrollTop();
-    console.log(scrollTop)
     if (scrollTop == 200) {
       $(".options-choose-class").addClass("fly");
       $("html").animate(
@@ -39,7 +38,7 @@ $(document).ready(function () {
       );
     }
 
-    else if (scrollTop == 3801 ||scrollTop == 3925) {
+    else if (scrollTop == 4069 ||scrollTop == 4182) {
       $("html").animate(
         {
           scrollTop: $(".section-new-experience").offset().top
@@ -48,7 +47,7 @@ $(document).ready(function () {
       );
     }
 
-    else if (scrollTop == 4804 || scrollTop == 5145) {
+    else if (scrollTop == 4804 || scrollTop == 5289) {
       $("html").animate(
         {
           scrollTop: $(".section-pricing").offset().top
