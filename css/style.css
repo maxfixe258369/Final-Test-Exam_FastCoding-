@@ -54,7 +54,7 @@ body {
 }
 .section-intro .header .nav-header .nav-header-content {
   background-color: #e2ede8;
-  padding: 20px 7%;
+  padding: 20px 7% 20px 0;
 }
 .section-intro .header .nav-header .nav-header-content a {
   font-family: "Baloo Bhai";
@@ -145,14 +145,19 @@ body {
 .section-choose-class .options-choose-class .options-element {
   list-style-type: none;
   text-align: center;
+  margin: 0 20px;
 }
 .section-choose-class .options-choose-class .options-element .image {
   position: relative;
+}
+.section-choose-class .options-choose-class .options-element .image .shape {
+  width: 100%;
 }
 .section-choose-class .options-choose-class .options-element .image .women {
   position: absolute;
   left: 50%;
   top: 50%;
+  width: 80%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
