@@ -9,6 +9,7 @@ function closeNav() {
 $(document).ready(function () {
   $(window).scroll(function () {
     const scrollTop = $(window).scrollTop();
+    console.log(scrollTop)
     if (scrollTop == 200) {
       $(".options-choose-class").addClass("fly");
       $("html").animate(
@@ -55,6 +56,16 @@ $(document).ready(function () {
         500
       );
     }
+
+    else if (scrollTop > 1536) {
+      $(".stats-content").addClass("show");
+    }
+
+    else if (scrollTop > 300) {
+      $(".options-choose-class").addClass("fly");
+    }
+
+    
   });
   
 })
